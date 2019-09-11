@@ -21,9 +21,6 @@ with:
 
 🔐 Set your secrets here: `https://github.com/USERNAME/REPO/settings/secrets`.
 
-> The url parameter is the full address of dingtalk robot:
-> https://oapi.dingtalk.com/robot/send?access_token=xxxxxx
-
 **Result**
 
 ![result of example ssh workflow](result.png)
