@@ -2,13 +2,20 @@ name: 'Dingtalk Robot Message'
 description: 'dingtalk robot message for github action'
 author: 'fifsky@gmail.com'
 inputs:
-  htmlFile:
-    description: 'html file path'
+  url:
+    description: 'dingtalk webhook'
     required: true
 
-  outputFile:
-    description: 'output file path'
+  type:
+    description: 'message type'
+    default: 'text'
+
+  content:
+    description: 'message content'
     required: true
+
+  at:
+    description: 'at users'
 
 runs:
   using: 'docker'
