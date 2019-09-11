@@ -14,6 +14,6 @@ jobs:
           type: markdown
           content: |
             # Tips
-            ## ${GITHUB_REPOSITORY}
+            ## Hello
             > from github action message
             > ^_^
