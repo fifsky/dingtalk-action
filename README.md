@@ -1,6 +1,6 @@
 # Container Action Template
 
-
+![](https://github.com/fifsky/dingtalk-action/workflows/dingtalk/badge.svg)
 
 
 ## Dingtalk robot document

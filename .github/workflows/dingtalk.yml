@@ -14,6 +14,6 @@ jobs:
           type: markdown
           content: |
             # Tips
-            ## ${{GITHUB_REPOSITORY}}
+            ## ${GITHUB_REPOSITORY}
             > from github action message
             > ^_^
