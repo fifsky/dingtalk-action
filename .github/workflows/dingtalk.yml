@@ -1,0 +1,19 @@
+name: dingtalk
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: dingtalk robot message
+        uses: fifsky/dingtalk-action@master
+        with:
+          url: ${{ secrets.DINGTALK_WEBHOOK}}
+          type: markdown
+          content: |
+            # Tips
+            ## ${{GITHUB_REPOSITORY}}
+            > from github action message
+            > ^_^

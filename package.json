@@ -1,43 +1,33 @@
 {
-  "name": "container-toolkit-template",
-  "version": "0.0.0",
-  "description": "Container template action using actions/toolkit",
+  "name": "dingtalk-robot",
+  "version": "0.0.1",
+  "description": "dingtalk robot message for github action",
   "main": "lib/main.js",
-  "scripts": {
-    "build": "tsc",
-    "format": "prettier --write **/*.ts",
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/container-toolkit-template.git"
+    "url": "git+https://github.com/fifsky/dingtalk-action.git"
   },
   "keywords": [
     "actions",
     "container",
     "toolkit",
-    "setup"
+    "dingtalk"
   ],
-  "author": "GitHub",
-  "license": "ISC",
+  "author": "fifsky@gmail.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/container-toolkit-template/issues"
+    "url": "https://github.com/fifsky/dingtalk-action/issues"
   },
-  "homepage": "https://github.com/actions/container-toolkit-template#readme",
+  "homepage": "https://github.com/fifsky/dingtalk-action#readme",
   "dependencies": {
     "@actions/core": "^1.0.0",
-    "@actions/io": "^1.0.0",
     "@actions/exec": "^1.0.0",
     "@actions/github": "^1.0.0",
-    "@actions/tool-cache": "^1.0.0"
+    "@actions/io": "^1.0.0",
+    "@actions/tool-cache": "^1.0.0",
+    "axios": "^0.19.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "@types/node": "^12.0.4",
-    "jest": "^24.8.0",
-    "jest-circus": "^24.7.1",
-    "prettier": "^1.17.1",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.5.1"
+    "@types/node": "^10.10.4"
   }
 }
